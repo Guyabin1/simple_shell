@@ -1,12 +1,12 @@
 #include "shell.h"
 /**
- * custom_main - initialize the variables of the program to be printed
+ * main - initialize the variables of the program to be printed
  * @argc: number of values received from the cmd
  * @argv: values received from the cmd
  * @env: number of values received from the cmd
  * Return: zero on succes.
  */
-int custom_main(int argc, char *argv[], char *env[])
+int main(int argc, char *argv[], char *env[])
 {
 	data_of_program data_struct = {NULL}, *data = &data_struct;
 	char *prompt = "";
