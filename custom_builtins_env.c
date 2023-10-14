@@ -5,7 +5,7 @@
  * @data: struct.
  * Return: zero if sucess, or other number if its declared in the arguments
  */
-int custom_buitin_environ(data_of_program *data)
+int custom_builtin_environ(data_of_program *data)
 {
 	int i;
 	char cpname[50] = {'\0'};
@@ -46,7 +46,7 @@ int custom_buitin_environ(data_of_program *data)
 }
 
 /**
- * builtin_pair_environ - the new set environment.
+ * builtin_pair_environ - the new pair environment.
  * @data: struct for the program's data
  * Return: zero if sucess.
  */

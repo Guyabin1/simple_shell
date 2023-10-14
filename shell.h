@@ -59,7 +59,7 @@ void string_backwards(char *string);
 int custom_alias(data_of_program *data, char *alias);
 char *_getalias(data_of_program *data, char *name);
 int alias_set(char *alias_string, data_of_program *data);
-int custom_buitin_environ(data_of_program *data);
+int custom_builtin_environ(data_of_program *data);
 int builtin_pair_environ(data_of_program *data);
 int builtin_unpaired_environ(data_of_program *data);
 char *custom_env_get_key(char *key, data_of_program *data);
