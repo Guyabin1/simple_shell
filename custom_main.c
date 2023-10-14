@@ -100,7 +100,7 @@ void separate_infi(char *prompt, data_of_program *data)
 
 		if (error_code == EOF)
 		{
-			free_all_data(data);
+			free_data_all(data);
 			exit(errno);
 		}
 		if (string_len >= 1)

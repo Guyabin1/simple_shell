@@ -12,7 +12,7 @@ int custom_buitin_environ(data_of_program *data)
 	char *var_copy = NULL;
 
 	if (data->tokens[1] == NULL)
-		custom_env_custom_print(data);
+		custom_env_print(data);
 	else
 	{
 		for (i = 0; data->tokens[1][i]; i++)
