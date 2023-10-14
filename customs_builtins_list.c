@@ -14,8 +14,8 @@ int _builtins_list(data_of_program *data)
 		{"help", custom_builtin_support},
 		{"cd", _builtin_command},
 		{"alias", custom_builtin_alias},
-		{"env", custom_buitin_environ},
-		{"setenv", builtin_set_env},
+		{"env", custom_builtin_environ},
+		{"setenv", builtin_pair_environ},
 		{"unsetenv", builtin_unpaired_environ},
 		{NULL, NULL}
 	};
