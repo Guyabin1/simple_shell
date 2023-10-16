@@ -21,7 +21,7 @@
  * struct info- struct for the program's data
  * @program_name: the name of the executable
  * @input_line: pointer to the input read for get_line
- * @command_name: pointer to the first command typed by the user
+ * @command_name: pointer to the first command typed
  * @exec_counter: number of excecuted comands
  * @file_descriptor: file descriptor to the input of commands
  * @tokens: pointer to array of custom_tokenize input

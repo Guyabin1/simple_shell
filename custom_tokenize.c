@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * custom_tokenize - the function that puts aside the string using a designed delim
+ * custom_tokenize - the function that puts aside the string using a delim
  * @data: a pointer.
  * Return: an array of the different parts of the string
  */

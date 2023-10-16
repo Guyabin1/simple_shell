@@ -46,6 +46,7 @@ int custom_alias(data_of_program *data, char *alias)
 char *_getalias(data_of_program *data, char *name)
 {
 	int i, length_alias;
+
 	if (name == NULL || data->alias_list == NULL)
 		return (NULL);
 
@@ -73,6 +74,7 @@ int alias_set(char *alias_string, data_of_program *data)
 {
 	int i, j;
 	char buffer[250] = {'0'}, *temp = NULL;
+
 	if (alias_string == NULL ||  data->alias_list == NULL)
 		return (1);
 	for (i = 0; alias_string[i]; i++)

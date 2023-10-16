@@ -37,8 +37,7 @@ void free_data_all(data_of_program *data)
 }
 
 /**
- * custom_free_array_of_pointers - frees each pointer of an array of pointers and the
- * array too
+ * custom_free_array_of_pointers - frees each pointer of an array
  * @array: array of pointers
  * Return: nothing
  */
