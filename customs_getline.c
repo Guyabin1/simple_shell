@@ -29,7 +29,7 @@ i = 0;
 do {
 array_commands[i] = str_copy(custom_strtok(i ? NULL : buff, "\n;"));
 
-i = _customcheck_logic_ops(array_commands, i, array_operators);
+i = _customcheck_logic(array_commands, i, array_operators);
 } while (array_commands[i++]);
 }
 
@@ -46,13 +46,13 @@ return (custom_str_length(data->input_line));
 
 
 /**
-* _customcheck_logic_ops - checks and split for &&
+* _customcheck_logic - checks and split for &&
 * @array_commands: array of the commands.
 * @i: index in the array_commands.
 * @array_operators: the logical operators for each last command
 *Return: index of the previous command
 */
-int _customcheck_logic_ops(char *array_commands[], int i, char array_operators[])
+int _customcheck_logic(char *array_commands[], int i, char array_operators[])
 {
 char *temp = NULL;
 int j;

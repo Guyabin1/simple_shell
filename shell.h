@@ -95,7 +95,7 @@ int _set_working_dir(data_of_program *data, char *new_dir);
 int custom_builtin_support(data_of_program *data);
 int custom_builtin_alias(data_of_program *data);
 int get_line(data_of_program *data);
-int _customcheck_logic_ops(char *array_commands[], int i, char array_operators[]);
+int _customcheck_logic(char *array_commands[], int i, char array_operators[]);
 
 
 
